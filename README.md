@@ -1,7 +1,7 @@
 # PHP7
 
 ## Associative Array
-<?php
+``` php
 
 $foods = array(
     'veg' => 'alu, potol',  
@@ -38,4 +38,4 @@ for($i=0; $i<$numKeys; $i++) {
     echo $foods[$key]."\n";
 };
 */
-?>
+```
