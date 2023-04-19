@@ -34,3 +34,9 @@ for($i=0; $i<$numKeys; $i++) {
     echo $foods[$key]."\n";
 };
 ```
+
+## String to Array & Array to String
+* str to array: explode(delimeter, string);
+* str to array: preg_split(delimeter, string);
+* array to str: join(delimeter, array);
+
