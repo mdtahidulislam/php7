@@ -9,26 +9,22 @@ $foods = array(
 );
 
 // get full array
-// print_r($foods);
+print_r($foods);
 
 // get single elem
-// echo $foods['veg'];
+echo $foods['veg'];
 
 // add items
-/**
 $foods['drinks'] .= ', sprite, water';
 echo $foods['drinks'];
-*/
+
 
 // foreach loop
-/**
 foreach($foods as $key => $val) {
     echo $key .'='. $val."\n";
 };
-*/
 
 // for loop by key/value
-/**
 $keys = array_keys($foods);
 print_r($keys);
 $numKeys = count($keys);
@@ -37,5 +33,4 @@ for($i=0; $i<$numKeys; $i++) {
     $key = $keys[$i];
     echo $foods[$key]."\n";
 };
-*/
 ```
