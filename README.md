@@ -18,6 +18,9 @@ echo $foods['veg'];
 $foods['drinks'] .= ', sprite, water';
 echo $foods['drinks'];
 
+// remove data
+unset($foods['drinks']);
+
 
 // foreach loop
 foreach($foods as $key => $val) {
