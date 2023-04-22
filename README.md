@@ -41,7 +41,7 @@ for($i=0; $i<$numKeys; $i++) {
 * array to str: join(delimeter, array);
 
 ## Associative Array to String
-```
+``` PHP
 $students = array(
     'name' => 'tahidul',
     'class' => 6,
