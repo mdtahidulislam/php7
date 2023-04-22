@@ -40,3 +40,31 @@ for($i=0; $i<$numKeys; $i++) {
 * str to array: preg_split(delimeter, string);
 * array to str: join(delimeter, array);
 
+## Associative Array to String
+```
+$students = array(
+    'name' => 'tahidul',
+    'class' => 6,
+    'roll' => 1
+);
+/**
+* join method just convert value to string
+* so it is not useable
+*/
+$studentsArrayToStr = join(', ', $students);
+print_r($studentsArrayToStr);
+
+// solution 1: serialize & unsexrialize
+$studentsArrayToStr1 = serialize($students);
+print_r($studentsArrayToStr1);
+
+$studentsArrayToStrUnserial = unsexrialize($studentsArrayToStr1);
+print_r($studentsArrayToStrUnserial);
+
+// solution 2: json_encode & json_decode
+$studentsArrayTojsonencode = json_encode($students);
+print_r($studentsArrayTojsonencode);
+
+$studentsArrayTojsonDecode = json_decode($studentsArrayTojsonencode, true);
+print_r($studentsArrayTojsonDecode);
+```
