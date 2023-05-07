@@ -71,3 +71,8 @@ print_r($studentsArrayTojsonencode);
 $studentsArrayTojsonDecode = json_decode($studentsArrayTojsonencode, true);
 print_r($studentsArrayTojsonDecode);
 ```
+
+## OOP-Inheritance
+* inherit method & propertise to child
+* override parents method & propertise in child
+* use protected
