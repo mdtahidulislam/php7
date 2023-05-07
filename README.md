@@ -76,3 +76,8 @@ print_r($studentsArrayTojsonDecode);
 * inherit method & propertise to child
 * override parents method & propertise in child
 * use protected
+
+## OOP-Abstract Class
+* use abstract keyword before class, method & prpertise
+* only keep method withou body
+* must define & use method body on extended class
