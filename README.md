@@ -78,7 +78,10 @@ print_r($studentsArrayTojsonDecode);
 * use protected
 
 ## OOP-Abstract Class
--- Can't initiate class. It forces to use method during extends 
+-- Can't initiate class. It forces to use method during extends. Can override abstract methods
 * use abstract keyword before class, method
 * only keep method without body
 * must define & use method body on extended class
+
+## OOP-final keyword
+-- can't override method
