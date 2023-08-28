@@ -85,12 +85,11 @@ print_r($studentsArrayTojsonDecode);
 
 ## OOP-final keyword
 -- can't override method
-## OOP-static method & properties
-* method override - can't override directly. needs to add static keyword
-* parent method call - parent::methodname()
 ## OOP-static method & property
 * static method & property can be accesed without initaing instance(object) of class
 * use static keyword before property & method
 * acsess property outside of class: ClassName::$propertyName
 * acsess method outside of class: ClassName::$methodName()
 * acsess inside class: self::$propertyName, self::$methodName()
+* method override - can't override directly. needs to add static keyword
+* parent method call - parent::methodname()
