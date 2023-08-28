@@ -93,3 +93,6 @@ print_r($studentsArrayTojsonDecode);
 * acsess inside class: self::$propertyName, self::$methodName()
 * method override - can't override directly. needs to add static keyword
 * parent method call - parent::methodname()
+## OOP-Constant in Class
+* declaration - const CONSTNAME = value
+* access - const has the static scope: self::CONSTNAME (inside), ClassName::CONSTNAME (outside)
